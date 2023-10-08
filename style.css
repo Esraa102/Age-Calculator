@@ -1,0 +1,86 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body {
+    background-color:#664cdc;
+}
+.wrapper {
+    padding:20px;
+    
+}
+.wrapper h1 {
+    margin:15px auto;
+    color:#f3df48;
+    border-bottom:4px solid #f3df48;
+    width:fit-content;
+    padding-bottom:7px;
+    
+}
+.wrapper .age-calc {
+    padding:15px 30px;
+    background-color:#7c64e6;
+    width:fit-content;
+    margin:20px auto;
+    position:relative;
+
+}
+.wrapper .age-calc input {
+    width: 300px;
+    height:40px;
+    padding:15px;
+    border:2px solid #fff;
+    border-radius:2px;
+    cursor:pointer;
+    user-select:none;
+}
+.wrapper .age-calc input:focus {
+    border-color:#664cdc;
+    outline:none;
+    
+}.wrapper .age-calc input::-webkit-calendar-picker-indicator {
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    position:absolute;
+    width:auto;
+    height:auto;
+    background-size:20px;
+    background-position:calc(100% - 40px);
+    cursor:pointer;
+    
+}
+ 
+.calc {
+    padding:10px 25px;
+    background-color:#f3df48;
+    border-radius:5px;
+   display:block;
+   margin:15px auto;
+   width:fit-content;
+   font-size:20px;
+   cursor:pointer;
+   box-shadow:-1px 4px 5px rgba(0,0,0,0.3);
+   transform:scale(0.9);
+   transition:0.3s;
+   user-select:none;
+}
+.calc:hover {
+    transform:scale(1);
+}
+.age-container {
+    padding:20px 45px;
+    background-color:#7c64e6;
+    width:fit-content;
+    margin :10px auto;
+    line-height:1.6;
+    border:2px solid #f3df48;
+}
+.age-container span {
+    font-weight:bolder;
+   
+}
